@@ -56,6 +56,7 @@ system using definite information" rather than the negative answer determined by
 [5]H. Yang, Z. Lin, and M. Zhang, “Rethinking knowledge graph evaluation under the open-world assumption,” arXiv.org, 19-Sep-2022.<br>
 [6]“Closed world reasoning - tau.” [Online]. Available: https://www.cs.tau.ac.il/~annaz/teaching/TAU_winter08/Seminar/yulia.pdf. <br>
 [7]J. Sequeda, “Introduction to: Open world assumption vs closed world assumption,” DATAVERSITY, 10-Jan-2015. [Online]. Available: https://www.dataversity.net/introduction-to-open-world-assumption-vs-closed-world-assumption/
+ 
 [8] S. Razniewski, O. Savkovi and W. Nutt, “Turning The Partial-closed World Assumption
 Upside Down,” Free University of Bozen-Bolzano. [Online]. Available: https://ceur-ws.org/Vol-1644/paper3.pdf
 
