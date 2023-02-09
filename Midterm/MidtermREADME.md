@@ -8,9 +8,7 @@
 * Level: [Beginner](../levels/Beginner.md)
 
 ## Content
-* We need to add to this.
-* We each need to add about 400 words to this section. 
-* 
+
 #### Closed Word Assumption 
 When it comes to answering questions and being able to understand natural processing tasks with detail, knowledge graphs are key, to be more specific, trust-worthy knowledge graphs. But what makes a knowledge graph trustable and how can we evaluate it as such?<br>
 Knowledge graph embedding is the action of taking latest information of entities and relations and using them for future predictions. Therefore, the knowledge graph can get evaluated on it's reliability by using a "Closed World Assumption" - assuming that any triples not present in the graph are false. In more common language, something that is present/known to be true is true, but something that is not known to be true is false. [3]<br>
@@ -49,11 +47,9 @@ system using definite information" rather than the negative answer determined by
 ## External Media References
 [3.9 DLs and the Open World Assumption](https://www.youtube.com/watch?v=QnxevuT4tQw)
 
-## References
-* We need to put any references we used in this section. 
-* They are numbered, start with 1. List them in order of use in the above sections. IEEE style. Include DOI, where available.<br> 
+## References 
 [1] A. Elçi, B. Rahnama and S. Kamran, "Defining a Strategy to Select Either of Closed/Open World Assumptions on Semantic Robots," 2008 32nd Annual IEEE International Computer Software and Applications Conference, Turku, Finland, 2008, pp. 417-423, doi: 10.1109/COMPSAC.2008.182.<br>
-[2] N. Viswanath and R. Sunderraman, "Handling disjunctions in open world relational databases," NAFIPS 2008 - 2008 Annual Meeting of the North American Fuzzy Information Processing Society, New York, NY, USA, 2008, pp. 1-6, doi: 10.1109/NAFIPS.2008.4531248.
+[2] N. Viswanath and R. Sunderraman, "Handling disjunctions in open world relational databases," NAFIPS 2008 - 2008 Annual Meeting of the North American Fuzzy Information Processing Society, New York, NY, USA, 2008, pp. 1-6, doi: 10.1109/NAFIPS.2008.4531248.<br>
 
 [3] T. Safavi, D. Koutra, and E. Meij, “Evaluating the calibration of knowledge graph embeddings for trustworthy link prediction,” Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. <br>
 [4] “Translating embeddings for modeling multi-relational data - neurips.” [Online]. Available: https://proceedings.neurips.cc/paper/2013/file/1cecc7a77928ca8133fa24680a88d2f9-Paper.pdf<br>
