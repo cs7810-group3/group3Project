@@ -12,13 +12,12 @@
 * We each need to add about 400 words to this section. 
 * 
 #### Closed Word Assumption 
-When it comes to answering questions and being able to understand natural processing tasks with detail, knowledge graphs are key, to be more specific, trust-worthy knowledge graphs. But what makes a knowledge graph trustable and how can we evaluate it as such?
-Knowledge graph embedding is the action of taking latest information of entities and relations and using them for future predictions. Therefore, the knowledge graph can get evaluated on it's reliability by using a "Closed World Assumption" - assuming that any triples not present in the graph are false. In more common language, something that is present/known to be true is true, but something that is not known to be true is false. [3]
+When it comes to answering questions and being able to understand natural processing tasks with detail, knowledge graphs are key, to be more specific, trust-worthy knowledge graphs. But what makes a knowledge graph trustable and how can we evaluate it as such?<br>
+Knowledge graph embedding is the action of taking latest information of entities and relations and using them for future predictions. Therefore, the knowledge graph can get evaluated on it's reliability by using a "Closed World Assumption" - assuming that any triples not present in the graph are false. In more common language, something that is present/known to be true is true, but something that is not known to be true is false. [3]<br>
 In the care of checking if a knowledge graph's predictions are true, a link prediction task can be perfomed : Given a test triple (h, r, t), we hold out one of its entities or its relation to form a query (h, r, ?), (?, r, t), or (h, ?, t). The model then scores all tail entities ti ∈ E, head entities hi ∈ E, or relations ri ∈ R as answers to the respective query such that higher-ranked completions (h, r, ti), (hi, r, t), or (h, ri, t) are more plausible. Prior to computing rankings, all true triples across train, validation, and test beyond the given test triple are filtered out. [3]
-Under this assumption, models are being analyzed by scoring the true test triples (h, r, t) as high as possible since any triple not present is considered not correct.[4]
-Recent works have showed a gap between the "Open World Assumption " vs the "Closed World Assumption".(see references)  This work reveals that the Closed Woeld Assumption is of much importance when evaluating a knowledge graph while Open World Assumption models mostly fail to locate false information.[5]
-We could call Closed World Assumption a simple formalization of default reasoning since the negative parts of a domain can be greater than the positive parts.
-This can be used in database applications such as airline reservations or library lending databases that keep track of things that exist instead of things that do not.[6] & [7]
+Under this assumption, models are being analyzed by scoring the true test triples (h, r, t) as high as possible since any triple not present is considered not correct.[4]<br>
+Recent works have showed a gap between the "Open World Assumption " vs the "Closed World Assumption".(see references)  This work reveals that the Closed World Assumption is of much importance when evaluating a knowledge graph while Open World Assumption models mostly fail to locate false information.[5]<br>
+We could call Closed World Assumption a simple formalization of default reasoning since the negative parts of a domain can be greater than the positive parts.This can be used in database applications such as airline reservations or library lending databases that keep track of things that exist instead of things that do not.[6] & [7]
 
 
 ### Open World Assumption and Partial Closed World Assumption
@@ -56,10 +55,10 @@ system using definite information" rather than the negative answer determined by
 [1] A. Elçi, B. Rahnama and S. Kamran, "Defining a Strategy to Select Either of Closed/Open World Assumptions on Semantic Robots," 2008 32nd Annual IEEE International Computer Software and Applications Conference, Turku, Finland, 2008, pp. 417-423, doi: 10.1109/COMPSAC.2008.182.<br>
 [2] N. Viswanath and R. Sunderraman, "Handling disjunctions in open world relational databases," NAFIPS 2008 - 2008 Annual Meeting of the North American Fuzzy Information Processing Society, New York, NY, USA, 2008, pp. 1-6, doi: 10.1109/NAFIPS.2008.4531248.
 
-[3] T. Safavi, D. Koutra, and E. Meij, “Evaluating the calibration of knowledge graph embeddings for trustworthy link prediction,” Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. 
-[4] “Translating embeddings for modeling multi-relational data - neurips.” [Online]. Available: https://proceedings.neurips.cc/paper/2013/file/1cecc7a77928ca8133fa24680a88d2f9-Paper.pdf
-[5]H. Yang, Z. Lin, and M. Zhang, “Rethinking knowledge graph evaluation under the open-world assumption,” arXiv.org, 19-Sep-2022.
-[6]“Closed world reasoning - tau.” [Online]. Available: https://www.cs.tau.ac.il/~annaz/teaching/TAU_winter08/Seminar/yulia.pdf. 
+[3] T. Safavi, D. Koutra, and E. Meij, “Evaluating the calibration of knowledge graph embeddings for trustworthy link prediction,” Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. <br>
+[4] “Translating embeddings for modeling multi-relational data - neurips.” [Online]. Available: https://proceedings.neurips.cc/paper/2013/file/1cecc7a77928ca8133fa24680a88d2f9-Paper.pdf<br>
+[5]H. Yang, Z. Lin, and M. Zhang, “Rethinking knowledge graph evaluation under the open-world assumption,” arXiv.org, 19-Sep-2022.<br>
+[6]“Closed world reasoning - tau.” [Online]. Available: https://www.cs.tau.ac.il/~annaz/teaching/TAU_winter08/Seminar/yulia.pdf. <br>
 [7]J. Sequeda, “Introduction to: Open world assumption vs closed world assumption,” DATAVERSITY, 10-Jan-2015. [Online]. Available: https://www.dataversity.net/introduction-to-open-world-assumption-vs-closed-world-assumption/
 
 ## Contributors
