@@ -10,12 +10,17 @@
 ## Content
 * We need to add to this.
 * We each need to add about 400 words to this section. 
-
-#### Open Word Assumption 
-* Erin is doing this section.
-
+* 
 #### Closed Word Assumption 
 * Antrea is doing this section.
+
+### Open World Assumption and Partial Closed World Assumption
+The open world assumption is the assumption that a statement may be true if it is not known to be false. The statement is not assumed to be true, necessarily, but it is allowed to exist in an unknown state. This is useful when representing real-world systems in which we are trying to discover information, or when we know that information will be added that we cannot account for at the beginning. It acknowledges and reflects that no one person or group is capable of possessing complete knowledge. 
+
+Open world assumption is used in Semantic Web languages and ontologies. If a knowledge graph states that a person is a man, and the man has brown hair and peach skin, then using the open world assumption we do not assume that the person does not have eyes simply because his eye color was not added to the graph. If this is the case, it would need to be directly stated. Similarly, we do not make the assumption that just because we have a list of traits about a place, that we know everything about it. Just because we do not see worms crawling in the grass doesn’t mean they aren’t in the soil. This assumption is the default logic used by most humans. People generally do not assume that something is false in a complete vacuum of knowledge.
+
+In the event that a fact must be represented as false, but while still generally using open world assumption, the partial closed-world assumption can be used. Partial closed-world assumption is when a language uses strong negation to represent statements as either open world assumption or closed world assumption as needed. In the real world we can assume that a cat has fur even if it has not been explicitly stated to be true, even though not all cats have fur. Because it is far more likely that a cat has fur than that it does not have fur, it makes more intuitive sense to represent this using the open world assumption. However, we also logically assume that a cat will not have green fur, even if it is not expressly stated to be false. This mix in how we make assumptions is an example of how humans generally use the partial closed-world assumption. 
+
 
 #### Comparison    
 One of the key benefits of using an Open World Assumption (OWA) is that the process of making an ontology based upon the Open World Assumption (OWA) is what could be called a process of elimination.<br> 
@@ -36,8 +41,7 @@ system using definite information" rather than the negative answer determined by
 * Tutorial Example
 
 ## External Media References
-* We need to make this section. 
-* We need to find at least 1 video to add to this section. Brownie points if it is a part of lecture.  
+[3.9 DLs and the Open World Assumption](https://www.youtube.com/watch?v=QnxevuT4tQw)
 
 ## References
 * We need to put any references we used in this section. 
