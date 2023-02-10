@@ -1,5 +1,3 @@
-# MidtermWork
-
 # Open World Assumption vs Closed World Assumption
 ## Details
 * Category: [Methods](../categories/Methods.md)
@@ -24,7 +22,7 @@ The open world assumption is the assumption that a statement not directly stated
 Open world assumption is used in Semantic Web languages as the point of the Semantic Web is to discover new information [7]. If a knowledge graph states that a person is a man, and the man has brown hair and peach skin, then using the open world assumption we do not assume that the person does not have eyes simply because his eye color was not added to the graph. If this is the case, it would need to be directly stated. Similarly, we do not make the assumption that just because we have a list of traits about a place, that we know everything about it. Just because we do not see worms crawling in the grass doesn’t mean they aren’t in the soil. This assumption is the default logic used by most humans. People generally do not assume that something is false in a complete vacuum of knowledge.
 
 ### Partial Closed World Assumption
-In the event that a fact must be represented as false, but while still generally using open world assumption, the partial closed-world assumption can be used. Partial closed-world assumption is when a language uses strong negation to represent statements as either open world assumption or closed world assumption as needed [8]. In the real world we can assume that a cat has fur even if it has not been explicitly stated to be true, even though not all cats have fur. Because it is far more likely that a cat has fur than that it does not have fur, it makes more intuitive sense to represent this using the open world assumption. However, we also logically assume that a cat will not have green fur, even if it is not expressly stated to be false. This mix in how we make assumptions is an example of how humans generally use the partial closed-world assumption.
+In the event that a fact must be represented as false, but while still generally using open world assumption, the partial closed-world assumption can be used. Partial closed-world assumption is when statements are represented as either open world assumption or closed world assumption based on what is more useful, within the same system [8]. In the real world we can assume that a cat has fur even if it has not been explicitly stated to be true, even though not all cats have fur. Because it is far more likely that a cat has fur than that it does not have fur, it makes more intuitive sense to represent this using the open world assumption. However, we also logically assume that a cat will not have green fur, even if it is not expressly stated to be false. This mix in how we make assumptions is an example of how humans generally use the partial closed-world assumption.
 
 
 ### Comparison    
@@ -56,7 +54,6 @@ system using definite information" rather than the negative answer determined by
 [5]H. Yang, Z. Lin, and M. Zhang, “Rethinking knowledge graph evaluation under the open-world assumption,” arXiv.org, 19-Sep-2022.<br>
 [6]“Closed world reasoning - tau.” [Online]. Available: https://www.cs.tau.ac.il/~annaz/teaching/TAU_winter08/Seminar/yulia.pdf. <br>
 [7]J. Sequeda, “Introduction to: Open world assumption vs closed world assumption,” DATAVERSITY, 10-Jan-2015. [Online]. Available: https://www.dataversity.net/introduction-to-open-world-assumption-vs-closed-world-assumption/
- 
 [8] S. Razniewski, O. Savkovi and W. Nutt, “Turning The Partial-closed World Assumption
 Upside Down,” Free University of Bozen-Bolzano. [Online]. Available: https://ceur-ws.org/Vol-1644/paper3.pdf
 
@@ -65,9 +62,6 @@ Upside Down,” Free University of Bozen-Bolzano. [Online]. Available: https://c
 * Erin Rogers
 * Cogan Shimizu
 * Sydney Woods
-
-
-
 
 
  
