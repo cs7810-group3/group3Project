@@ -8,8 +8,8 @@
   * What are their goals?<br>
   * Why is making a Knowledge Graph interesting -- or important -- for the use-case?<br>   
 * Additional expectations: should be approximately 400-500 words -- or roughly one typed page.<br> 
-* Trying to help any airplane enthousiast finding more information regarding this subject in the matter of parts, dates, manufacturers etc. Essentially making the person an “expert”.
-
+* 
+In our knowledge graph, we aim to support aircraft owners, pilots, and maintainers. Their end goal is to keep aircraft flightworthy, which means frequent maintenance. Maintenance sometimes means sending parts out for repairs or even replacing them altogether, but a large percentage of aircraft used today is more than fifty years old and their manufacturer may have gone out of business or been subsumed by a competitor. It can be difficult to know what companies are supporting the maintenance for what models based upon service logs and possibly out of date owner’s manuals. Keeping aircraft flightworthy also involves knowing what issues a specific model may be prone to, such as brakes on Cessna 140s leading to the airplanes flipping over on the runway, and knowing when parts are recalled. Recalls can happen decades after an aircraft is no longer in production.
 
 # Competency Questions
 
