@@ -8,6 +8,8 @@
   * What are their goals?<br>
   * Why is making a Knowledge Graph interesting -- or important -- for the use-case?<br>   
 * Additional expectations: should be approximately 400-500 words -- or roughly one typed page.<br> 
+* Trying to help any airplane enthousiast finding more information regarding this subject in the matter of parts, dates, manufacturers etc. Essentially making the person an “expert”.
+
 
 # Competency Questions
 
@@ -24,7 +26,10 @@
 * What aircraft have had part recalls, and are there trends?
 * What aircraft manufacturers support part production for older aircraft and are there aircraft with no manufacturer support?
 * What engines are compatible with what aircraft?
-*
+* Can you describe the relationship between airplane parts and their manufacturers in the knowledge graph?
+* How would you query the knowledge graph to identify all airplanes manufactured by a specific company?
+* What is the most common part used in airplanes and which manufacturer is associated with it in the knowledge graph?
+* Can you provide a summary of the manufacturing dates for all airplanes in the knowledge graph and how they relate to the parts used in each aircraft?
 
 # Potential Datasets
 
@@ -39,3 +44,5 @@
 * Might be more from the directory one level up found here https://ww2db.com/doc.php - access date: 02/16/2023<br> 
 * https://data.world/data-society/airplane-crashes
 * https://data.world/sanfrancisco/u7dr-xm3v
+* https://www.kaggle.com/code/jiaowoguanren/airplanes-motorbikes-schooners-tf-efficientnet/data
+* https://industry.flightaware.com/ownersandoperators
