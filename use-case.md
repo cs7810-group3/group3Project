@@ -8,7 +8,14 @@
   * What are their goals?<br>
   * Why is making a Knowledge Graph interesting -- or important -- for the use-case?<br>   
 * Additional expectations: should be approximately 400-500 words -- or roughly one typed page.<br> 
-* 
+Some common goals include:<br>
+	*	Improving data organization and management: A knowledge graph can help organize complex and interconnected data, making it easier to understand and manage.<br>
+	*	Enabling effective search and retrieval of information: By organizing data in a structured way, a knowledge graph can make it easier to search for and retrieve relevant information.<br>
+	*	Supporting data analysis and decision-making: A knowledge graph can help identify patterns, insights, and relationships that might not be visible in traditional data structures, enabling better decision-making.<br>
+	*	Facilitating collaboration and communication: By providing a common framework for understanding data, a knowledge graph can facilitate collaboration and communication among teams.<br>
+
+A knowledge graph can also help to streamline communication and collaboration among different stakeholders in the aviation industry, enabling them to make more informed decisions and take actions that improve the overall safety and efficiency of the industry.
+
 In our knowledge graph, we aim to support aircraft owners, pilots, and maintainers. Their end goal is to keep aircraft flightworthy, which means frequent maintenance. Maintenance sometimes means sending parts out for repairs or even replacing them altogether, but a large percentage of aircraft used today is more than fifty years old and their manufacturer may have gone out of business or been subsumed by a competitor. It can be difficult to know what companies are supporting the maintenance for what models based upon service logs and possibly out of date owner’s manuals. Keeping aircraft flightworthy also involves knowing what issues a specific model may be prone to, such as brakes on Cessna 140s leading to the airplanes flipping over on the runway, and knowing when parts are recalled. Recalls can happen decades after an aircraft is no longer in production.
 
 # Competency Questions
