@@ -43,7 +43,7 @@ Access dates are subject to change, should the dataset be used.<br>
 * https://www.faa.gov/data_research/aviation_data_statistics - original access date: 02/16/2023<br>
 * https://ww2db.com/doc.php?q=399 - original access date: 02/16/2023<br>
 * Might be more from the directory one level up found here https://ww2db.com/doc.php - original access date: 02/16/2023<br> 
-* https://data.world/data-society/airplane-crashes
-* https://data.world/sanfrancisco/u7dr-xm3v
-* https://www.kaggle.com/code/jiaowoguanren/airplanes-motorbikes-schooners-tf-efficientnet/data
-* https://industry.flightaware.com/ownersandoperators
+* https://data.world/data-society/airplane-crashes -original access date: 02/16/2023<br> 
+* https://data.world/sanfrancisco/u7dr-xm3v -original access date: 02/16/2023<br> 
+* https://www.kaggle.com/code/jiaowoguanren/airplanes-motorbikes-schooners-tf-efficientnet/data -original access date: 02/16/2023<br> 
+* https://industry.flightaware.com/ownersandoperators -original access date: 02/16/2023<br> 
