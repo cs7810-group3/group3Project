@@ -2,12 +2,6 @@
 
 # Narrative 
 
-* Should contain a top-level description of your use-case.<br>
-* Should, at a minimum, answer the questions:<br>
-  * Who are you supporting?<br>
-  * What are their goals?<br>
-  * Why is making a Knowledge Graph interesting -- or important -- for the use-case?<br>   
-* Additional expectations: should be approximately 400-500 words -- or roughly one typed page.<br> 
 Some common goals include:<br>
 	*	Improving data organization and management: A knowledge graph can help organize complex and interconnected data, making it easier to understand and manage.<br>
 	*	Enabling effective search and retrieval of information: By organizing data in a structured way, a knowledge graph can make it easier to search for and retrieve relevant information.<br>
@@ -16,12 +10,13 @@ Some common goals include:<br>
 
 A knowledge graph can also help to streamline communication and collaboration among different stakeholders in the aviation industry, enabling them to make more informed decisions and take actions that improve the overall safety and efficiency of the industry.
 
-In our knowledge graph, we aim to support aircraft owners, pilots, and maintainers. Their end goal is to keep aircraft flightworthy, which means frequent maintenance. Maintenance sometimes means sending parts out for repairs or even replacing them altogether, but a large percentage of aircraft used today is more than fifty years old and their manufacturer may have gone out of business or been subsumed by a competitor. It can be difficult to know what companies are supporting the maintenance for what models based upon service logs and possibly out of date owner’s manuals. Keeping aircraft flightworthy also involves knowing what issues a specific model may be prone to, such as brakes on Cessna 140s leading to the airplanes flipping over on the runway, and knowing when parts are recalled. Recalls can happen decades after an aircraft is no longer in production.
+In our knowledge graph, we aim to support aircraft owners, pilots, and maintainers. Their end goal is to keep aircraft flightworthy, which means frequent maintenance. Maintenance sometimes means sending parts out for repairs or even replacing them altogether, but a large percentage of aircraft used today is more than fifty years old and their manufacturer may have gone out of business or been subsumed by a competitor. It can be difficult to know what companies are supporting the maintenance for what models based upon service logs and possibly out of date owner’s manuals. Keeping aircraft flightworthy also involves knowing what issues a specific model may be prone to, such as brakes on Cessna 140s leading to the airplanes flipping over on the runway, and knowing when parts are recalled. Recalls can happen decades after an aircraft is no longer in production.<br>
+
+Additionally, there could be potential use by businesses looking to see what companies are their biggest remaining competition in the manufacturing of parts. As previously stated, some manufacturers may have been merged together (a similar situation as has been seen with wireless providers in the USA in the early to mid 2010s).<br>
+With the issue of manufacturers going out of business, another possible use would be for owners to see if there are any compatible parts still being made to replace or repair parts no longer being made. This functionality would also be useful should any parts be recalled to figure out what is the next best option to keep the aircraft in a safe condition for flying.<br>
+By including details about the most common issues different models of the same parts are prone to, this could allow an individual to make a clear decision on what part they would use. For example if the owner of an aircraft has previously encountered a specific issue and knows how to fix it, they may pick the part that is known to have that issue over a part that they do not know how to fix the issues with. Or if the aircraft owner is looking to expand their knowledge on how to fix issues, they may opt to purchase the part they did not know how to fix and then learn to do so.    
 
 # Competency Questions
-
-* Should thoroughly describe your intended interactions and what data you will retrieve to support said interactions.<br>
-* Should include no less than 10 competency questions.<br>
 
 * Show all manufacturing companies that made X part during the years A to B.
 * Show all parts needed to build an X type plane built in year A.
@@ -40,15 +35,14 @@ In our knowledge graph, we aim to support aircraft owners, pilots, and maintaine
 
 # Potential Datasets
 
-* Should provide links and access dates for no less than five potential datasets.<br>
-*
+Access dates are subject to change, should the dataset be used.<br>
 
-* https://gama.aero/facts-and-statistics/statistical-databook-and-industry-outlook/annual-data/ - access date: 2/16/2023<br>
-* https://www.faa.gov/airports/engineering/aircraft_char_database - access date: 02/16/2023<br>
- * Specifically https://www.faa.gov/airports/engineering/aircraft_char_database/data - access date: 02/16/2023<br>  
-* https://www.faa.gov/data_research/aviation_data_statistics - access date: 02/16/2023<br>
-* https://ww2db.com/doc.php?q=399 - access date: 02/16/2023<br>
-* Might be more from the directory one level up found here https://ww2db.com/doc.php - access date: 02/16/2023<br> 
+* https://gama.aero/facts-and-statistics/statistical-databook-and-industry-outlook/annual-data/ - original access date: 2/16/2023<br>
+* https://www.faa.gov/airports/engineering/aircraft_char_database - original access date: 02/16/2023<br>
+ * Specifically https://www.faa.gov/airports/engineering/aircraft_char_database/data - original access date: 02/16/2023<br>  
+* https://www.faa.gov/data_research/aviation_data_statistics - original access date: 02/16/2023<br>
+* https://ww2db.com/doc.php?q=399 - original access date: 02/16/2023<br>
+* Might be more from the directory one level up found here https://ww2db.com/doc.php - original access date: 02/16/2023<br> 
 * https://data.world/data-society/airplane-crashes
 * https://data.world/sanfrancisco/u7dr-xm3v
 * https://www.kaggle.com/code/jiaowoguanren/airplanes-motorbikes-schooners-tf-efficientnet/data
