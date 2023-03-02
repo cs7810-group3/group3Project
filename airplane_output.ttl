@@ -1,0 +1,32 @@
+@prefix ex: <https://example.com/> .
+
+ex:Cargo a ex:Plane .
+
+ex:Passenger a ex:Plane .
+
+ex:SR-71 a ex:Military,
+        ex:Plane .
+
+ex:ManufacturingCompany ex:makesPart ex:Part ;
+    ex:shutDownServiceOn ex:closedOnDate .
+
+ex:Military a ex:Plane .
+
+ex:PartModel ex:beganManufacturingOn ex:startDate ;
+    ex:hasCausedCrash ex:Crash ;
+    ex:hasRecall ex:Recall ;
+    ex:stoppedManufacturingOn ex:endDate .
+
+ex:PlaneModel ex:hasCrashed ex:Crash .
+
+ex:Recall ex:recalledOn ex:recalledOnDate .
+
+ex:Crash ex:isCrashOfType ex:CrashType .
+
+ex:Part ex:isPartModelType ex:PartModel ;
+    ex:madeBy ex:ManufacturingCompany ;
+    ex:usedIn ex:Plane .
+
+ex:Plane ex:isPlaneModelType ex:PlaneModel ;
+    ex:uses ex:Part .
+
