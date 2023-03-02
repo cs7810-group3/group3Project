@@ -67,6 +67,8 @@ madeBy = pfs["ex"]["madeBy"]
 makesPart = pfs["ex"]["makesPart"]
 # shutDownServiceOn
 shutDownServiceOn = pfs["ex"]["shutDownServiceOn"]
+# specifiesReplacementPart
+specRepPart = pfs["ex"]["specifiesReplacementPart"]
 
 g = init_kg()
 
@@ -81,9 +83,6 @@ g.add((pfs["ex"]["SR-71"], a, pfs["ex"]["Military"]))
 # Plane 
 g.add((pfs["ex"]["Plane"], uses, pfs["ex"]["Part"]))
 g.add((pfs["ex"]["Part"], usedIn, pfs["ex"]["Plane"]))
-g.add((pfs["ex"]["Military"], a, pfs["ex"]["Plane"]))
-g.add((pfs["ex"]["Cargo"], a, pfs["ex"]["Plane"]))
-g.add((pfs["ex"]["Passenger"], a, pfs["ex"]["Plane"]))
 # PlaneModel
 g.add((pfs["ex"]["Plane"], isPlaneModelType, pfs["ex"]["PlaneModel"]))
 # Crash
@@ -95,6 +94,10 @@ g.add((pfs["ex"]["PartModel"], beganManufacturingOn, pfs["ex"]["startDate"]))
 g.add((pfs["ex"]["PartModel"], stoppedManufacturingOn, pfs["ex"]["endDate"]))
 # Recall
 g.add((pfs["ex"]["PartModel"], hasRecall, pfs["ex"]["Recall"]))
+# ReplacementPart
+g.add((pfs["ex"]["Recall"], specRepPart, pfs["ex"]["ReplacementPart"]))
+g.add((pfs["ex"]["ReplacementPart"], madeBy, pfs["ex"]["ManufacturingCompany"]))
+g.add((pfs["ex"]["ManufacturingCompany"], makesPart, pfs["ex"]["ReplacementPart"]))
 # recalledOnDate
 g.add((pfs["ex"]["Recall"], recalledOn, pfs["ex"]["recalledOnDate"]))
 # Part
