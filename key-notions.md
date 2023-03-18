@@ -1,9 +1,10 @@
 # Key Notions 
 
-* CrashType : States the type of the crash (if any) of a given airplane.
-* Crash : States whether or not a given plane has crashed.
-* PlaneModel : States the model of the plane.
-* Plane : ID of an individual aircraft.
+* CrashType : States the type of the crash (if any) of a given airplane. - Pattern : Aggregation [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/aggregation)
+* Crash : States whether or not a given plane has crashed. - Pattern : Event [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/event)
+* PlaneModel : States the model of the plane. - Pattern : Identifier [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
+* Plane : ID of an individual aircraft. - Pattern : Identifier [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier
+)
 * Part : Gives the general part type (for example an engine or a propeller).
 * PartModel : States the specific model number / name or type of a given Part.
 * endDate : The date that a given PartModel stopped being manufactured on (if no longer in production - for example, production would hopefully stop when a recall occurs). 0/0/0 if still being manufactured.  
