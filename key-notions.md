@@ -1,10 +1,13 @@
 # Key Notions 
 
 * CrashType : States the type of the crash (if any) of a given airplane. - Pattern : Aggregation [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/aggregation)
+ * Database : [link here](https://www.ntsb.gov/safety/data/Pages/Data_Stats.aspx) 
 * Crash : States whether or not a given plane has crashed. - Pattern : Event [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/event)
+ * Database : [link here](https://www.ntsb.gov/safety/data/Pages/Data_Stats.aspx) 
 * PlaneModel : States the model of the plane. - Pattern : Identifier [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
-* Plane : ID of an individual aircraft. - Pattern : Identifier [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier
-)
+ * Database : [link here](https://database.diecastmodelaircraft.com)
+* Plane : ID of an individual aircraft. - Pattern : Identifier [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
+ * Database : [link here](http://www.csgnetwork.com/aviationtypeid.html)
 * Part : Gives the general part type (for example an engine or a propeller).
 * PartModel : States the specific model number / name or type of a given Part. - Pattern : Identifier [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier) 
   * PartModel Datasets - https://www.aircraftspruce.com/menus/st/ac.html 
