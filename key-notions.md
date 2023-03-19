@@ -12,8 +12,9 @@
   * Dates Pattern : Temporal Extent [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/temporal-extent)
 * endDate : The date that a given PartModel stopped being manufactured on (if no longer in production - for example, production would hopefully stop when a recall occurs). 0/0/0 if still being manufactured.  
 * startDate : The date that the given PartModel first began being produced. 
-* ManufacturingCompany : The company that manufactures the given PartModel, ReplacementPart, or PlaneModel.
-* closedOnDate : Close or merge date of a ManufacturingCompany. 0/0/0 if not closed.
-* Recall : Formal recall for a specific PartModel on an airplane.
-* recalledOnDate : Date of recall.
-* ReplacementPart : Official replacement part specified in the recall.
+* ManufacturingCompany : The company that manufactures the given PartModel, ReplacementPart, or PlaneModel.  Pattern: Identifier [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier) 
+*   - Database: https://www.back4app.com/database/back4app/aircraft-make-and-model-list)
+* Recall : Formal recall for a specific PartModel on an airplane. Pattern: Aggregation [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/aggregation) 
+*   - Database: https://drs.faa.gov/browse/ADFRAWD/doctypeDetails
+* ReplacementPart : Official replacement part specified in the recall. Pattern: Identifer [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)  
+*   - Database: https://drs.faa.gov/browse/ADFRAWD/doctypeDetails
