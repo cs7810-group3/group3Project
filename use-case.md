@@ -47,3 +47,4 @@ Access dates are subject to change, should the dataset be used.<br>
 * https://data.world/sanfrancisco/u7dr-xm3v -original access date: 02/16/2023<br> 
 * https://www.kaggle.com/code/jiaowoguanren/airplanes-motorbikes-schooners-tf-efficientnet/data -original access date: 02/16/2023<br> 
 * https://industry.flightaware.com/ownersandoperators -original access date: 02/16/2023<br> 
+* https://drs.faa.gov/browse/ADFRAWD/doctypeDetails -original access date: 03/18/2023<br>
