@@ -61,11 +61,11 @@ Each Part has at least one PartModel.
 ![PartModel Dates](../schema-diagrams/start_end_dates_img.png "PartModel Dates")
 
 ### Axioms
-* EndDate max 1 TemporalExtent <br />
+* EndDate max 1 TemporalEntity <br />
 Each PartModel has at most one EndDate.
 * hasIdentifier exactly 1 Identifier <br />
 Each PartModel has exactly one Identifier. 
-* StartDate exactly 1 TemporalExtent <br />
+* StartDate exactly 1 TemporalEntity <br />
 Each PartModel has exactly one StartDate.
 
 
