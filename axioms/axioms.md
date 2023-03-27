@@ -3,7 +3,7 @@
 [All Schemas Link](https://github.com/cs7810-group3/group3Project/tree/main/schema-diagrams)
 
 ## CrashType
- ![CrashType Schema Diagram](../schema-diagrams/CrashType.graphml)
+
  ![CrashType Schema Diagram](../schema-diagrams/CrashType.png)
 
 ### Axioms
@@ -16,7 +16,7 @@ Each Crash Type occurs only once.
 
 
 ## Crash
-![Crash Schema Diagram](../schema-diagrams/Crash.graphml)
+
 ![Crash Schema Diagram](../schema-diagrams/Crash.png)
 
 ### Axioms
@@ -26,7 +26,7 @@ Every crash has exactly one Crash Type.
 Every Crash has occured exactly once.
 
 ## PlaneModel
-![PlaneModel Schema Diagram](../schema-diagrams/PlaneModel.graphml)
+
 ![PlaneModel Schema Diagram](../schema-diagrams/PlaneModel.png)
 
 ### Axioms
@@ -36,7 +36,7 @@ Every Plane Model Belongs is part of the Plane Entity.
 A Plane Model is of only one Plane.
 
 ## PlaneID
-![PlaneID Schema Diagram](../schema-diagrams/PlaneID.graphml)
+
 ![PlaneID Schema Diagram](../schema-diagrams/PlaneID.png)
 
 
