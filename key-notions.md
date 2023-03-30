@@ -5,7 +5,7 @@
 * Crash : States whether or not a given plane has crashed. - Pattern : Event [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/event)
  * - Database : [link here](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908?resource=download)
 * PlaneModel : States the model of the plane. - Pattern : Identifier [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
- * - Database : [link here](https://database.diecastmodelaircraft.com)
+ * - Database : [link here](http://aviationdb.net/aviationdb/AircraftQuery#SUBMIT)
 * Plane : ID of an individual aircraft. - Pattern : Identifier [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
  * - Database : [link here](http://www.csgnetwork.com/aviationtypeid.html)
 * Part : Gives the general part type (for example an engine or a propeller).
