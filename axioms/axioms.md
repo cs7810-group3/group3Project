@@ -20,7 +20,7 @@ Each Crash Type occurs only once.
 ![Crash Schema Diagram](../schema-diagrams/Crash.png)
 
 ### Axioms
-* isCrashofType exactly 1 CrashType <br />
+* 'isCrashofType exactly 1 CrashType' <br />
 Every crash has exactly one Crash Type.
 * OccuredOnDate exactly 1 TemporalEntity <br />
 Every Crash has occured exactly once.
