@@ -15,9 +15,9 @@ There is only one Crash Type each time.
 Each Crash Type occurs only once.
 
 
-## Crash
+## CrashType
 
-![Crash Schema Diagram](../schema-diagrams/Crash.png)
+![Crash Schema Diagram](../schema-diagrams/CrashType.png)
 
 ### Axioms
 * `isCrashofType exactly 1 CrashType` <br />
