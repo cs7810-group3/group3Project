@@ -1,8 +1,5 @@
 # Key Notions 
-
-* CrashType : States the type of the crash (if any) of a given airplane. - Pattern : Aggregation [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/aggregation)
- * - Database : [link here](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908?resource=download)
-* Crash : States whether or not a given plane has crashed. - Pattern : Event [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/event)
+* CrashType : Is Binary depending if the crash had fatalities or not - Crash is of type 1 if it had one or more fatality. Also has the date that the crash has occured. - Pattern : Event [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/event)
  * - Database : [link here](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908?resource=download)
 * PlaneModel : States the model of the plane. - Pattern : Identifier [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
  * - Database : [link here](http://aviationdb.net/aviationdb/AircraftQuery#SUBMIT)
