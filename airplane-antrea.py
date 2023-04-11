@@ -53,9 +53,9 @@ for index, row in crash_data.iterrows():
     date=row["Date"]
     
     
-    plane_model_uri = URIRef(f"{name_space}lod/resource/PlaneModel{index}")
-    g.add(( plane_model_uri, a, pfs["grair"]["PlaneModel"]))
-    g.add(( plane_model_uri, isPlaneModelType, Literal(plane_model)))
+    plane_uri = URIRef(f"{name_space}lod/resource/Plane{index}")
+    g.add(( plane_uri, a, pfs["grair"]["Plane"]))
+    g.add(( plane_uri, isPlaneModelType, Literal(plane_model)))
     crash_uri = URIRef(f"{name_space}lod/resource/CrashType{index}")
     g.add(( crash_uri, a, pfs["grair"]["CrashType"]))
     
@@ -64,11 +64,11 @@ for index, row in crash_data.iterrows():
     
 for index, row in planeID.iterrows():
     planeID=row["PlaneID"]
-    planeID_uri = URIRef(f"{name_space}lod/resource/PlaneID{index}")
-    g.add(( planeID_uri, a, pfs["grair"]["PlaneID"]))
+    plane_uri = URIRef(f"{name_space}lod/resource/Plane{index}")
+ 
     
 
-    g.add((planeID_uri, hasPlaneID, Literal(planeID)))
+    g.add((plane_uri, hasPlaneID, Literal(planeID)))
 
 # Serialize the graph to a file
 g.serialize(destination='out.ttl', format='turtle')
