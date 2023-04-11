@@ -25,7 +25,7 @@ pfs = {
 "ssn": Namespace("http://www.w3.org/ns/ssn/"),
 "sosa": Namespace("http://www.w3.org/ns/sosa/"),
 "cdt": Namespace("http://w3id.org/lindt/custom_datatypes#"),
-"grair":Namespace("https://group3/GenericOntology/Airplanes/")
+"grair":Namespace("https://group3/GenericOntology/Airplanes")
 }
 
 import pandas as pd
@@ -53,17 +53,22 @@ for index, row in crash_data.iterrows():
     date=row["Date"]
     
     
-    plane_uri = URIRef(f"{name_space}lod/resource/Plane{index}")
-    g.add((plane_uri, a, pfs["grair"]["Plane"]))
-    g.add((plane_uri, isPlaneModelType, Literal(plane_model)))
-    g.add((plane_uri, isCrashOfType, Literal(fatalities)))
-    g.add((plane_uri, occuredOnDate, Literal(date)))
+    plane_model_uri = URIRef(f"{name_space}lod/resource/PlaneModel{index}")
+    g.add(( plane_model_uri, a, pfs["grair"]["PlaneModel"]))
+    g.add(( plane_model_uri, isPlaneModelType, Literal(plane_model)))
+    crash_uri = URIRef(f"{name_space}lod/resource/CrashType{index}")
+    g.add(( crash_uri, a, pfs["grair"]["CrashType"]))
+    
+    g.add((crash_uri, isCrashOfType, Literal(fatalities)))
+    g.add((crash_uri, occuredOnDate, Literal(date)))
     
 for index, row in planeID.iterrows():
     planeID=row["PlaneID"]
-    plane_uri = URIRef(f"{name_space}lod/resource/Plane{index}")
+    planeID_uri = URIRef(f"{name_space}lod/resource/PlaneID{index}")
+    g.add(( planeID_uri, a, pfs["grair"]["PlaneID"]))
+    
 
-    g.add((plane_uri, hasPlaneID, Literal(planeID)))
+    g.add((planeID_uri, hasPlaneID, Literal(planeID)))
 
 # Serialize the graph to a file
 g.serialize(destination='out.ttl', format='turtle')
