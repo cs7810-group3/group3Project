@@ -48,7 +48,115 @@ By including details about the most common issues different models of the same p
 
 ## Modules
 <!-- There should be one module section per module (essentially per key-notion) -->
-### Module X
+### AirworthinessDirective
+**Source Pattern:** name of adapted source pattern
+**Source Data:** name(s) of dataset(s) which populate this module
+
+#### Description
+Description Text (adapted from the rationale in `key-notions.md`).
+
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+
+#### Axioms
+* `axiom in manchester syntax` <br />
+natural language description
+* `axiom in manchester syntax` <br />
+natural language description
+
+#### Remarks
+* Any remarks re: usage
+
+### CrashType
+**Source Pattern:** name of adapted source pattern
+**Source Data:** name(s) of dataset(s) which populate this module
+
+#### Description
+Description Text (adapted from the rationale in `key-notions.md`).
+
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+
+#### Axioms
+* `axiom in manchester syntax` <br />
+natural language description
+* `axiom in manchester syntax` <br />
+natural language description
+
+#### Remarks
+* Any remarks re: usage
+
+### ManufacturingCompany
+**Source Pattern:** name of adapted source pattern
+**Source Data:** name(s) of dataset(s) which populate this module
+
+#### Description
+Description Text (adapted from the rationale in `key-notions.md`).
+
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+
+#### Axioms
+* `axiom in manchester syntax` <br />
+natural language description
+* `axiom in manchester syntax` <br />
+natural language description
+
+#### Remarks
+* Any remarks re: usage
+
+### Part
+**Source Pattern:** name of adapted source pattern
+**Source Data:** name(s) of dataset(s) which populate this module
+
+#### Description
+Description Text (adapted from the rationale in `key-notions.md`).
+
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+
+#### Axioms
+* `axiom in manchester syntax` <br />
+natural language description
+* `axiom in manchester syntax` <br />
+natural language description
+
+#### Remarks
+* Any remarks re: usage
+
+### Plane
+**Source Pattern:** name of adapted source pattern
+**Source Data:** name(s) of dataset(s) which populate this module
+
+#### Description
+Description Text (adapted from the rationale in `key-notions.md`).
+
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+
+#### Axioms
+* `axiom in manchester syntax` <br />
+natural language description
+* `axiom in manchester syntax` <br />
+natural language description
+
+#### Remarks
+* Any remarks re: usage
+
+### PlaneID
+**Source Pattern:** name of adapted source pattern
+**Source Data:** name(s) of dataset(s) which populate this module
+
+#### Description
+Description Text (adapted from the rationale in `key-notions.md`).
+
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+
+#### Axioms
+* `axiom in manchester syntax` <br />
+natural language description
+* `axiom in manchester syntax` <br />
+natural language description
+
+#### Remarks
+* Any remarks re: usage
+
+### PlaneModel
 **Source Pattern:** name of adapted source pattern
 **Source Data:** name(s) of dataset(s) which populate this module
 
