@@ -55,7 +55,7 @@ By including details about the most common issues different models of the same p
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
 
-![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/AirworthinessDirective.png)
 
 #### Axioms
 * `axiom in manchester syntax` <br />
@@ -73,7 +73,7 @@ natural language description
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
 
-![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/CrashType.png)
 
 #### Axioms
 * `axiom in manchester syntax` <br />
@@ -91,7 +91,7 @@ natural language description
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
 
-![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/ManufacturingCompany.png)
 
 #### Axioms
 * `axiom in manchester syntax` <br />
@@ -109,7 +109,7 @@ natural language description
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
 
-![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/Part.png)
 
 #### Axioms
 * `axiom in manchester syntax` <br />
