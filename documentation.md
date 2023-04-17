@@ -19,12 +19,12 @@ With the issue of manufacturers going out of business, another possible use woul
 By including details about the most common issues different models of the same parts are prone to, this could allow an individual to make a clear decision on what part they would use. For example if the owner of an aircraft has previously encountered a specific issue and knows how to fix it, they may pick the part that is known to have that issue over a part that they do not know how to fix the issues with. Or if the aircraft owner is looking to expand their knowledge on how to fix issues, they may opt to purchase the part they did not know how to fix and then learn to do so.    
 
 ### Competency Questions
-* How would you query the knowledge graph to identify all airplanes manufactured by a specific company?
-* Show the top A most common planes. (This would be the list on length A, of the planes with the highest count of total manufactured / made)  
-* What aircraft have had part recalls, and are there trends?
-* What aircraft manufacturers support part production and are there aircraft with no manufacturer support?
-* What times of year are associated with higher crash ratings?
-* What is the most common part a company makes?
+* How would you query the knowledge graph to identify all airplane parts manufactured by a specific company?
+* Show the top A most common plane models. (This would be the list on length A, of the planes with the highest count of total manufactured / made)  
+* What times of year are associated with higher crash ratings that were fatal?
+* How many parts each company makes?
+* Show the unique plane ID's paired with their corresponding plane model type.
+* Show the parts along with their manufactiring company and their airworthiness directive.
 
 ### Integrated Datasets
 [Crash Types](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908?resource=download)
