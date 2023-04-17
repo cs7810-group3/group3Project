@@ -21,10 +21,10 @@ By including details about the most common issues different models of the same p
 ### Competency Questions
 * How would you query the knowledge graph to identify all airplanes manufactured by a specific company?
 * Show the top A most common planes. (This would be the list on length A, of the planes with the highest count of total manufactured / made)  
-* Are their connections between aircraft models and specific crash types?
 * What aircraft have had part recalls, and are there trends?
-* What aircraft manufacturers support part production for older aircraft and are there aircraft with no manufacturer support?
-* What part recalls are associated with the most crashes?
+* What aircraft manufacturers support part production and are there aircraft with no manufacturer support?
+* What times of year are associated with higher crash ratings?
+* What is the most common part a company makes?
 
 ### Integrated Datasets
 [Crash Types](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908?resource=download)
@@ -33,7 +33,18 @@ By including details about the most common issues different models of the same p
 
 
 ### References
-Adapted from `use-case.md`.
+* https://gama.aero/facts-and-statistics/statistical-databook-and-industry-outlook/annual-data/ - original access date: 2/16/2023<br>
+* https://www.faa.gov/airports/engineering/aircraft_char_database - original access date: 02/16/2023<br>
+* Specifically https://www.faa.gov/airports/engineering/aircraft_char_database/data - original access date: 02/16/2023<br>  
+* https://www.faa.gov/data_research/aviation_data_statistics - original access date: 02/16/2023<br>
+* https://ww2db.com/doc.php?q=399 - original access date: 02/16/2023<br>
+* Might be more from the directory one level up found here https://ww2db.com/doc.php - original access date: 02/16/2023<br> 
+* https://data.world/data-society/airplane-crashes -original access date: 02/16/2023<br> 
+* https://data.world/sanfrancisco/u7dr-xm3v -original access date: 02/16/2023<br> 
+* https://www.kaggle.com/code/jiaowoguanren/airplanes-motorbikes-schooners-tf-efficientnet/data -original access date: 02/16/2023<br> 
+* https://industry.flightaware.com/ownersandoperators -original access date: 02/16/2023<br> 
+* https://drs.faa.gov/browse/ADFRAWD/doctypeDetails -original access date: 03/18/2023<br>
+
 
 ## Modules
 <!-- There should be one module section per module (essentially per key-notion) -->
