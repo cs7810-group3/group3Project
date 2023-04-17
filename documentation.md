@@ -55,7 +55,7 @@ By including details about the most common issues different models of the same p
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
 
-![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png))
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
 
 #### Axioms
 * `axiom in manchester syntax` <br />
@@ -72,7 +72,7 @@ natural language description
 * prefix: namespace
 
 ### Schema Diagram
-![schema-diagram](./schema-diagram.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
 
 ### Axioms
 * `axiom in manchester syntax` <br />
