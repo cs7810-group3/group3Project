@@ -127,7 +127,7 @@ natural language description
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
 
-![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/Plane.png)
 
 #### Axioms
 * `axiom in manchester syntax` <br />
@@ -145,7 +145,7 @@ natural language description
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
 
-![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/PlaneID.png)
 
 #### Axioms
 * `axiom in manchester syntax` <br />
@@ -163,7 +163,7 @@ natural language description
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
 
-![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/PlaneModel.png)
 
 #### Axioms
 * `axiom in manchester syntax` <br />
