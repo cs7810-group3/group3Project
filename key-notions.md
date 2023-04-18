@@ -5,11 +5,9 @@
  * - Database : [link here](http://aviationdb.net/aviationdb/AircraftQuery#SUBMIT)
 * PlaneID : ID of an individual aircraft. - Pattern : Identifier [link here](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
  * - Database : [link here](http://www.csgnetwork.com/aviationtypeid.html)
-* Part : Gives the general part type (for example an engine or a propeller).
-* PartModel : States the specific model number / name or type of a given Part. - Pattern : Identifier [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier) 
-  * PartModel Datasets - https://www.aircraftspruce.com/menus/st/ac.html  
-* ManufacturingCompany : The company that manufactures the given PartModel, ReplacementPart, or PlaneModel.  Pattern: Identifier [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier) 
+* Part : States the specific model number / name or type of a part of a plane. - Pattern : Identifier [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier) 
+  * Part Datasets - https://www.aircraftspruce.com/menus/st/ac.html  
+* ManufacturingCompany : The company that manufactures the given Part.  Pattern: Identifier [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier) 
 *   - Database: https://www.back4app.com/database/back4app/aircraft-make-and-model-list)
 * AirworthinessDirective: FAA-issued recall for a specific Part on an airplane. Pattern: Aggregation [link here]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/aggregation) 
 *   - Database: https://drs.faa.gov/browse/ADFRAWD/doctypeDetails
-
