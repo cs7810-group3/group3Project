@@ -53,7 +53,7 @@ By including details about the most common issues different models of the same p
 **Source Data:** [FAA Dynamic Regulatory System](https://drs.faa.gov/browse/ADFRAWD/doctypeDetails)
 
 #### Description
-Description Text (adapted from the rationale in `key-notions.md`).
+Airworthiness Directives are Part recalls issued by the FAA.
 
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/AirworthinessDirective.png)
 
@@ -71,7 +71,7 @@ The Airworthiness Directive is issued on one date.
 **Source Data:** [Crashes Since 1908](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908?resource=download)
 
 #### Description
-Description Text (adapted from the rationale in `key-notions.md`).
+Binary value identifying if the Plane has had any fatal crashes.
 
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/CrashType.png)
 
@@ -90,7 +90,7 @@ Each Crash Type occurs only once.
 **Source Pattern:** [Identifier]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier) 
 **Source Data:** [FAA Dynamic Regulatory System](https://drs.faa.gov/browse/ADFRAWD/doctypeDetails)
 #### Description
-Description Text (adapted from the rationale in `key-notions.md`).
+Manufacturing Companies create Parts for aircraft.
 
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/ManufacturingCompany.png)
 
@@ -106,7 +106,7 @@ A Manufacturing Company must manufacture at least one aircraft Part.
 **Source Data:** [FAA Dynamic Regulatory System](https://drs.faa.gov/browse/ADFRAWD/doctypeDetails)
 
 #### Description
-Description Text (adapted from the rationale in `key-notions.md`).
+Specific components of an airplane.
 
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/Part.png)
 
@@ -124,7 +124,7 @@ Not all Parts have an AirworthinessDirective, but there is no maximum one Part m
 **Source Data:** name(s) of dataset(s) which populate this module
 
 #### Description
-Description Text (adapted from the rationale in `key-notions.md`).
+An individual Plane Entity.
 
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/Plane.png)
 
@@ -160,15 +160,11 @@ natural language description
 **Source Data:** [FAA Dynamic Regulatory System](https://drs.faa.gov/browse/ADFRAWD/doctypeDetails)
 
 #### Description
-Description Text (adapted from the rationale in `key-notions.md`).
+States the model of the Plane.
 
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/PlaneModel.png)
 
 #### Axioms
-* `axiom in manchester syntax` <br />
-natural language description
-* `axiom in manchester syntax` <br />
-natural language description
 
 #### Remarks
 * Any remarks re: usage
@@ -182,10 +178,22 @@ natural language description
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/schema_attempt_seven.png)
 
 ### Axioms
-* `axiom in manchester syntax` <br />
-natural language description
-* `axiom in manchester syntax` <br />
-natural language description
+* `isAirworthinessDirectiveFor min 1 Part` <br />
+The Airworthiness Directive is for at least one Part.
+* `hasDate exactly 1 TemporalEntity` <br />
+The Airworthiness Directive is issued on one date.
+* `CrashType SubClass Of Plane` <br />
+Crash Types are part of the Plane Entity.
+* `hasCrashType exactly 1 CrashType` <br />
+There is only one Crash Type each time.
+* `OccuredOnDate exactly 1 TemporalEntity` <br />
+Each Crash Type occurs only once.
+* `manufactures min 1 Part` <br />
+A Manufacturing Company must manufacture at least one aircraft Part.
+* `isMadeBy min 1 ManufacturingCompany` <br />
+At least one Manufacturing Company must have produced a specific Part, but there can be more than one manufacturer.
+* `hasAirworthinessDirective min 0 AirworthinessDirective` <br />
+Not all Parts have an AirworthinessDirective, but there is no maximum one Part may have.
 
 ### Usage
 Adapted from `validation.md`, i.e., the competency questions + SPARQL queries.
