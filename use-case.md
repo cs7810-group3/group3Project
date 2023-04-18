@@ -18,20 +18,12 @@ By including details about the most common issues different models of the same p
 
 # Competency Questions
 
-* Show all manufacturing companies that made X part during the years A to B.
-* Show all parts needed to build an X type plane built in year A.
-* Show the manufacturing companies that made the most types of parts during year A.
-* Show all shared parts between plane type X and plane type Y from year A.
-* Show all countries where X part is manufactured. (This would be the countries / locations of all manufacturing companies that make X part)
-* Show the top A most common planes. (This would be the list on length A, of the planes with the highest count of total manufactured / made)  
-* Are their connections between aircraft models and specific crash types?
-* What aircraft have had part recalls, and are there trends?
-* What aircraft manufacturers support part production for older aircraft and are there aircraft with no manufacturer support?
-* What engines are compatible with what aircraft?
-* Can you describe the relationship between airplane parts and their manufacturers in the knowledge graph?
-* How would you query the knowledge graph to identify all airplanes manufactured by a specific company?
-* What is the most common part used in airplanes and which manufacturer is associated with it in the knowledge graph?
-* Can you provide a summary of the manufacturing dates for all airplanes in the knowledge graph and how they relate to the parts used in each aircraft?
+* How would you query the knowledge graph to identify all airplane parts manufactured by a specific company?
+* Show the top A most common plane models. (This would be the list on length A, of the planes with the highest count of total manufactured / made)  
+* What times of year are associated with higher crash ratings that were fatal?
+* How many parts each company makes?
+* Show the unique plane ID's paired with their corresponding plane model type.
+* Show the parts along with their manufactiring company and their airworthiness directive.
 
 # Potential Datasets
 
