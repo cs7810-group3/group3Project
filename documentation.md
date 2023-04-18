@@ -142,15 +142,15 @@ natural language description
 **Source Data:** [Aviation IDs](http://www.csgnetwork.com/aviationtypeid.html)
 
 #### Description
-Description Text (adapted from the rationale in `key-notions.md`).
+The registration number of an aircraft.
 
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/PlaneID.png)
 
 #### Axioms
-* `axiom in manchester syntax` <br />
-natural language description
-* `axiom in manchester syntax` <br />
-natural language description
+* `PlaneID SubClass Of Plane` <br />
+Every PlaneID is part of the Plane Entity.
+* `hasPlaneID exactly 1 PlaneID` <br />
+Every Plane has exactly one PlaneID.
 
 #### Remarks
 * Any remarks re: usage
@@ -165,6 +165,12 @@ States the model of the Plane.
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/PlaneModel.png)
 
 #### Axioms
+* `EndDate max 1 TemporalEntity` <br />
+Each PartModel has at most one EndDate.
+* `hasIdentifier exactly 1 Identifier` <br />
+Each PartModel has exactly one Identifier. 
+* `StartDate exactly 1 TemporalEntity` <br />
+Each PartModel has exactly one StartDate.
 
 #### Remarks
 * Any remarks re: usage
@@ -194,6 +200,10 @@ A Manufacturing Company must manufacture at least one aircraft Part.
 At least one Manufacturing Company must have produced a specific Part, but there can be more than one manufacturer.
 * `hasAirworthinessDirective min 0 AirworthinessDirective` <br />
 Not all Parts have an AirworthinessDirective, but there is no maximum one Part may have.
+* `PlaneID SubClass Of Plane` <br />
+Every PlaneID is part of the Plane Entity.
+* `hasPlaneID exactly 1 PlaneID` <br />
+Every Plane has exactly one PlaneID.
 
 ### Usage
 Adapted from `validation.md`, i.e., the competency questions + SPARQL queries.
