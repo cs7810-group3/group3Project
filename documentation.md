@@ -49,8 +49,8 @@ By including details about the most common issues different models of the same p
 ## Modules
 <!-- There should be one module section per module (essentially per key-notion) -->
 ### AirworthinessDirective
-**Source Pattern:** name of adapted source pattern
-**Source Data:** name(s) of dataset(s) which populate this module
+**Source Pattern:** [Aggregation]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/aggregation)
+**Source Data:** [FAA Dynamic Regulatory System](https://drs.faa.gov/browse/ADFRAWD/doctypeDetails)
 
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
@@ -58,17 +58,17 @@ Description Text (adapted from the rationale in `key-notions.md`).
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/AirworthinessDirective.png)
 
 #### Axioms
-* `axiom in manchester syntax` <br />
-natural language description
-* `axiom in manchester syntax` <br />
-natural language description
+* `isAirworthinessDirectiveFor min 1 Part` <br />
+The Airworthiness Directive is for at least one Part.
+* `hasDate exactly 1 TemporalEntity` <br />
+The Airworthiness Directive is issued on one date.
 
 #### Remarks
 * Any remarks re: usage
 
 ### CrashType
-**Source Pattern:** name of adapted source pattern
-**Source Data:** name(s) of dataset(s) which populate this module
+**Source Pattern:** [Event](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/event)
+**Source Data:** [Crashes Since 1908](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908?resource=download)
 
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
@@ -76,35 +76,34 @@ Description Text (adapted from the rationale in `key-notions.md`).
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/CrashType.png)
 
 #### Axioms
-* `axiom in manchester syntax` <br />
-natural language description
-* `axiom in manchester syntax` <br />
-natural language description
+* `CrashType SubClass Of Plane` <br />
+Crash Types are part of the Plane Entity.
+* `hasCrashType exactly 1 CrashType` <br />
+There is only one Crash Type each time.
+* `OccuredOnDate exactly 1 TemporalEntity` <br />
+Each Crash Type occurs only once.
 
 #### Remarks
 * Any remarks re: usage
 
 ### ManufacturingCompany
-**Source Pattern:** name of adapted source pattern
-**Source Data:** name(s) of dataset(s) which populate this module
-
+**Source Pattern:** [Identifier]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier) 
+**Source Data:** [FAA Dynamic Regulatory System](https://drs.faa.gov/browse/ADFRAWD/doctypeDetails)
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
 
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/ManufacturingCompany.png)
 
 #### Axioms
-* `axiom in manchester syntax` <br />
-natural language description
-* `axiom in manchester syntax` <br />
-natural language description
+* `manufactures min 1 Part` <br />
+A Manufacturing Company must manufacture at least one aircraft Part.
 
 #### Remarks
 * Any remarks re: usage
 
 ### Part
-**Source Pattern:** name of adapted source pattern
-**Source Data:** name(s) of dataset(s) which populate this module
+**Source Pattern:** [Identifier]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
+**Source Data:** [FAA Dynamic Regulatory System](https://drs.faa.gov/browse/ADFRAWD/doctypeDetails)
 
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
@@ -112,10 +111,10 @@ Description Text (adapted from the rationale in `key-notions.md`).
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/Part.png)
 
 #### Axioms
-* `axiom in manchester syntax` <br />
-natural language description
-* `axiom in manchester syntax` <br />
-natural language description
+* `isMadeBy min 1 ManufacturingCompany` <br />
+At least one Manufacturing Company must have produced a specific Part, but there can be more than one manufacturer.
+* `hasAirworthinessDirective min 0 AirworthinessDirective` <br />
+Not all Parts have an AirworthinessDirective, but there is no maximum one Part may have.
 
 #### Remarks
 * Any remarks re: usage
@@ -139,8 +138,8 @@ natural language description
 * Any remarks re: usage
 
 ### PlaneID
-**Source Pattern:** name of adapted source pattern
-**Source Data:** name(s) of dataset(s) which populate this module
+**Source Pattern:** [Identifier]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
+**Source Data:** [Aviation IDs](http://www.csgnetwork.com/aviationtypeid.html)
 
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
@@ -157,8 +156,8 @@ natural language description
 * Any remarks re: usage
 
 ### PlaneModel
-**Source Pattern:** name of adapted source pattern
-**Source Data:** name(s) of dataset(s) which populate this module
+**Source Pattern:** [Identifier]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
+**Source Data:** [FAA Dynamic Regulatory System](https://drs.faa.gov/browse/ADFRAWD/doctypeDetails)
 
 #### Description
 Description Text (adapted from the rationale in `key-notions.md`).
