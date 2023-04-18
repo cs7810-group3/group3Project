@@ -2,70 +2,76 @@
 
 [All Schemas Link](https://github.com/cs7810-group3/group3Project/tree/main/schema-diagrams)
 
-## CrashType
+### AirworthinessDirective
 
- ![CrashType Schema Diagram](../schema-diagrams/CrashType.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/AirworthinessDirective.png)
 
-### Axioms
-* `CrashType SubClass Of Crash` <br />
-Crash Types are part of the Crash Entity.
-* `isCrashofType exactly 1 CrashType` <br />
+#### Axioms
+* `isAirworthinessDirectiveFor min 1 Part` <br />
+The Airworthiness Directive is for at least one Part.
+* `hasDate exactly 1 TemporalEntity` <br />
+The Airworthiness Directive is issued on one date.
+
+### CrashType
+
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/CrashType.png)
+
+#### Axioms
+* `CrashType SubClass Of Plane` <br />
+Crash Types are part of the Plane Entity.
+* `hasCrashType exactly 1 CrashType` <br />
 There is only one Crash Type each time.
 * `OccuredOnDate exactly 1 TemporalEntity` <br />
 Each Crash Type occurs only once.
 
 
-## CrashType
+### ManufacturingCompany
 
-![Crash Schema Diagram](../schema-diagrams/CrashType.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/ManufacturingCompany.png)
 
-### Axioms
-* `isCrashofType exactly 1 CrashType` <br />
-Every crash has exactly one Crash Type.
-* `OccuredOnDate exactly 1 TemporalEntity` <br />
-Every Crash has occured exactly once.
+#### Axioms
+* `manufactures min 1 Part` <br />
+A Manufacturing Company must manufacture at least one aircraft Part.
 
-## PlaneModel
+### Part
 
-![PlaneModel Schema Diagram](../schema-diagrams/PlaneModel.png)
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/Part.png)
 
-### Axioms
-* `PlaneModel SubClass Of Plane` <br />
-Every Plane Model Belongs is part of the Plane Entity.
-* `isPlaneModelType exactly 1 PlaneModel` <br />
-A Plane Model is of only one Plane.
-
-## PlaneID
-
-![PlaneID Schema Diagram](../schema-diagrams/PlaneID.png)
+#### Axioms
+* `isMadeBy min 1 ManufacturingCompany` <br />
+At least one Manufacturing Company must have produced a specific Part, but there can be more than one manufacturer.
+* `hasAirworthinessDirective min 0 AirworthinessDirective` <br />
+Not all Parts have an AirworthinessDirective, but there is no maximum one Part may have.
 
 
-### Axioms
+### Plane
+
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/Plane.png)
+
+#### Axioms
+* `axiom in manchester syntax` <br />
+natural language description
+* `axiom in manchester syntax` <br />
+natural language description
+
+### PlaneID
+
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/PlaneID.png)
+
+#### Axioms
 * `PlaneID SubClass Of Plane` <br />
 Every PlaneID is part of the Plane Entity.
 * `hasPlaneID exactly 1 PlaneID` <br />
 Every Plane has exactly one PlaneID.
 
+### PlaneModel
 
+![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/PlaneModel.png)
 
-## Part
-![Part Schema Diagram](../schema-diagrams/part.graphml)
-![Part](../schema-diagrams/part_img.png "Part")
-### Axioms
-* `isPartModelType min 1 PartModel` <br />
-Each Part has at least one PartModel. 
-
-## PartModel
-![PartModel Schema Diagram](../schema-diagrams/part_model.graphml)
-![PartModel](../schema-diagrams/part_model_img.png "PartModel")
-![PartModel Dates Schema Diagram](../schema-diagrams/start_end_dates.graphml)
-![PartModel Dates](../schema-diagrams/start_end_dates_img.png "PartModel Dates")
-
-### Axioms
+#### Axioms
 * `EndDate max 1 TemporalEntity` <br />
 Each PartModel has at most one EndDate.
 * `hasIdentifier exactly 1 Identifier` <br />
 Each PartModel has exactly one Identifier. 
 * `StartDate exactly 1 TemporalEntity` <br />
 Each PartModel has exactly one StartDate.
-
