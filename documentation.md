@@ -63,9 +63,6 @@ The Airworthiness Directive is for at least one Part.
 * `hasDate exactly 1 TemporalEntity` <br />
 The Airworthiness Directive is issued on one date.
 
-#### Remarks
-* Any remarks re: usage
-
 ### CrashType
 **Source Pattern:** [Event](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/event)
 **Source Data:** [Crashes Since 1908](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908?resource=download)
@@ -83,8 +80,6 @@ There is only one Crash Type each time.
 * `OccuredOnDate exactly 1 TemporalEntity` <br />
 Each Crash Type occurs only once.
 
-#### Remarks
-* Any remarks re: usage
 
 ### ManufacturingCompany
 **Source Pattern:** [Identifier]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier) 
@@ -98,8 +93,6 @@ Manufacturing Companies create Parts for aircraft.
 * `manufactures min 1 Part` <br />
 A Manufacturing Company must manufacture at least one aircraft Part.
 
-#### Remarks
-* Any remarks re: usage
 
 ### Part
 **Source Pattern:** [Identifier]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
@@ -116,8 +109,6 @@ At least one Manufacturing Company must have produced a specific Part, but there
 * `hasAirworthinessDirective min 0 AirworthinessDirective` <br />
 Not all Parts have an AirworthinessDirective, but there is no maximum one Part may have.
 
-#### Remarks
-* Any remarks re: usage
 
 ### Plane
 **Source Pattern:** name of adapted source pattern
@@ -128,14 +119,6 @@ An individual Plane Entity.
 
 ![./schema-diagram.png](https://github.com/cs7810-group3/group3Project/blob/main/schema-diagrams/Plane.png)
 
-#### Axioms
-* `axiom in manchester syntax` <br />
-natural language description
-* `axiom in manchester syntax` <br />
-natural language description
-
-#### Remarks
-* Any remarks re: usage
 
 ### PlaneID
 **Source Pattern:** [Identifier]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
@@ -152,8 +135,6 @@ Every PlaneID is part of the Plane Entity.
 * `hasPlaneID exactly 1 PlaneID` <br />
 Every Plane has exactly one PlaneID.
 
-#### Remarks
-* Any remarks re: usage
 
 ### PlaneModel
 **Source Pattern:** [Identifier]( https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl/identifier)
@@ -172,8 +153,6 @@ Each PartModel has exactly one Identifier.
 * `StartDate exactly 1 TemporalEntity` <br />
 Each PartModel has exactly one StartDate.
 
-#### Remarks
-* Any remarks re: usage
 
 ## The Overall Knowledge Graph
 ### Namespaces
